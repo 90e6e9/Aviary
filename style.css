@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #fcfaf8;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(53, 53, 53);
+}
+
+.header {
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(66, 21, 21);
+}
+
+.header h1 {
+    float: left;
+    margin: 10px 0px 0px 40px;
+}
+
+.header ul {
+    list-style: none;
+    margin-top: 8px;
+    float: right;
+}
+
+.header li {
+    display: inline;
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: rgb(207, 182, 182);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.header li a:hover {
+    background-color: #fcfaf8;
+}
+
+
+.aboutgrid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
+    padding: 100px 20% 0px 20%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.aboutgrid img {
+    width: 100%;
+}
+
+.grid-container > div {
+    background-color: pink;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.flex-container-visdev {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 50px 0px 50px;
+    justify-content: center;
+}
+
+.flex-container-visdev .galleryimg {
+    margin: 10px;
+    text-align: center;
+    width: 450px;
+  }
+
+  .flex-container-visdev .galleryimg img {
+    width: 100%;
+  }
+
+.flex-container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.flex-container .galleryimg {
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container .galleryimg iframe {
+    width: 70%;
+    height: 600px;
+}
